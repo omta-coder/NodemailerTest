@@ -22,8 +22,6 @@ exports.sendmail = (req,res)=>{
             return res.send(err);
         }
         console.log(info);
-        res.send(
-            "Email Send Sucessfully !"
-        )
+       
     })
 }
